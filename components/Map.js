@@ -35,7 +35,7 @@ const Map = () => {
       )
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
+          // console.log(data);
           dispatch(setTravelTimeInformation(data.rows[0].elements[0]));
         });
     };
