@@ -1,4 +1,4 @@
-import { KeyboardAvoidingView, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 // import tw from "twrnc";
 import tw from "tailwind-react-native-classnames";
@@ -12,7 +12,7 @@ const MapScreen = () => {
   const Stack = createStackNavigator();
 
   return (
-    <KeyboardAvoidingView behavior="padding" style={{ flex: 1 }}>
+    <View style={{ flex: 1 }}>
       <Text>Here is the MapScreen</Text>
       <View style={tw`h-1/2`}>
         <Map />
@@ -31,7 +31,7 @@ const MapScreen = () => {
           />
         </Stack.Navigator>
       </View>
-    </KeyboardAvoidingView>
+    </View>
   );
 };
 
