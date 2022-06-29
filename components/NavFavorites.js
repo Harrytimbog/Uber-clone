@@ -48,7 +48,7 @@ const NavFavorites = () => {
           //       description: destination,
           //     })
           //   );
-          //   // navigation.navigate("RideOptionsCard");
+          //   navigation.navigate("MapScreen");
           // }}
         >
           <Icon
